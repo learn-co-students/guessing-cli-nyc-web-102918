@@ -16,8 +16,6 @@ def run_guessing_game
         end
 
         player_answer = gets.chomp
-        
-        computer_answer = rand(1..6)
     end 
 
     if player_answer == 'exit'

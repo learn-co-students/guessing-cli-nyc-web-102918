@@ -7,7 +7,6 @@ def run_guessing_game
     puts "Guess a number between 1 and 6."
     player_answer = gets.chomp
     
-
     while player_answer != "exit"
         
         if player_answer.to_i ==  computer_answer
@@ -18,7 +17,6 @@ def run_guessing_game
 
         player_answer = gets.chomp
     end 
-
     
     puts "Goodbye!"
 
